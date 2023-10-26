@@ -38,6 +38,9 @@
                 echo '<div><img src="' . $dir . $file . '" alt="Gallery Image"></div>';
             }
         }
+    } else {
+    // Handle the case where $dir is not a valid directory
+    echo 'The directory does not exist.';
     }
     ?>
 </div>
